@@ -60,4 +60,4 @@ def add_symbols():
 
 
 if __name__ == "__main__":
-    easyforms.register(login_func=login, pages=[add_symbols()])
+    easyforms.run(login_func=login, pages=[add_symbols()])
